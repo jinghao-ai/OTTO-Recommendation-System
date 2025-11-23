@@ -20,7 +20,7 @@ This project is built to be:
 	•	Research-value (suitable for portfolio, scholarship applications, and interviews)
 
 📁 Repository Structure
-OTTO-Recommender/
+ OTTO-Recommender/
 │
 ├── README.md                     ← Main project documentation
 │
@@ -50,3 +50,22 @@ OTTO-Recommender/
     ├── feature_utils.py
     ├── model_utils.py
     └── metric_utils.py
+
+	📅 7-Day Project Plan
+Day
+Content Summary
+Day 1
+Environment setup, JSONL streaming, lightweight EDA
+Day 2
+Baseline candidate generation (popularity / last-N)
+Day 3
+Co-visitation matrix (efficient k-NN approximation)
+Day 4
+Feature engineering for ranking models
+Day 5
+Training ranking models（LightGBM / XGBoost）
+Day 6
+Re-ranking, weighted blending, optimization
+Day 7
+Final ensemble + Kaggle submission
+
